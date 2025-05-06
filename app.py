@@ -1,7 +1,7 @@
 import streamlit as st
 from textblob import TextBlob
 
-st.title("Feeling Detector Analysis")
+st.title("ngecek perasaan")
 
 text = st.text_area("Enter a Sentence or Review")
 if st.button("Analyze"):
