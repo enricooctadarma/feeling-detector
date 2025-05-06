@@ -3,7 +3,7 @@ from textblob import TextBlob
 
 st.title("Simple Sentiment Analysis")
 
-text = st.text.are("Enter a Sentence or Review")
+text = st.text.area("Enter a Sentence or Review")
 if st.button("Analyze"):
     blob = TextBlob(text)
     polarity = blob.sentiment.polarity
